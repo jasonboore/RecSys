@@ -1,0 +1,14 @@
+# recommend_a2c
+library: pytorch 1.10.2
+		ptan 0.4
+		torch-geometric 2.0.3
+		gym 0.17.3
+		numpy 1.20.3
+		pandas 1.3.4
+
+data preprocessing: assembly.py,data_splicing.py,dataset.py,get_edge.py,pre.py,processing.py,similarity.py
+
+model training: recommend_A2C.py
+
+model testing: Modify the code in the recommend_A2C.py to read the network model saved in the model folder.
+
